@@ -1,0 +1,29 @@
+{
+  "name": "arabic-money-manager",
+  "version": "1.0.0",
+  "description": "تطبيق ويب عربي متكامل لإدارة الأموال الشخصية",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000",
+    "build": "echo 'Build script'",
+    "test": "echo 'Test script'"
+  },
+  "keywords": [
+    "money-manager",
+    "finance",
+    "budget",
+    "arabic",
+    "web-app"
+  ],
+  "author": "MATD-CORE",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MATD-CORE/Arabic_Money_Manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MATD-CORE/Arabic_Money_Manager/issues"
+  },
+  "homepage": "https://github.com/MATD-CORE/Arabic_Money_Manager#readme"
+}
