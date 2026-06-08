@@ -13,3 +13,22 @@ money-manager/
 │   ├── charts.js
 │   └── app.js
 └── README.md
+
+
+## 🚀 التشغيل
+1. أنشئ مجلدًا جديدًا وضع الملفات داخله بنفس الهيكل أعلاه.
+2. افتح `index.html` في أي متصفح حديث.
+3. لا يحتاج سيرفر أو تثبيت إضافي (يعمل بـ CDN).
+
+## 🛠️ التقنيات
+- Vanilla JS (ES5 Compatible)
+- TailwindCSS (CDN)
+- Chart.js 4 (CDN)
+- Google Fonts (Tajawal)
+- LocalStorage API
+
+## 📝 ملاحظات التطوير
+- جميع الأزرار مربوطة بـ `onclick` مباشر لضمان العمل الفوري بدون تأخير `DOMContentLoaded`.
+- حالة التطبيق `S` عامة لتسهيل الوصول من أي وحدة.
+- تم عزل كل وحدة في `IIFE` لمنع تداخل المتغيرات.
+- متوافق مع الجوال (Responsive + RTL).
