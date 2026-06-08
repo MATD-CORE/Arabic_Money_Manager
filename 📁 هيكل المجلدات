@@ -1,0 +1,15 @@
+money-manager/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── data.js
+│   ├── utils.js
+│   ├── ui.js
+│   ├── accounts.js
+│   ├── transactions.js
+│   ├── transfers.js
+│   ├── budget.js
+│   ├── charts.js
+│   └── app.js
+└── README.md
